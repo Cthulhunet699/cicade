@@ -1,0 +1,114 @@
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Datos del Problema - Sistema RSA</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background-color: #f0f0f0;
+
+            margin: 0;
+
+            padding: 20px;
+
+        }
+
+        h1 {
+
+            text-align: center;
+
+            color: #333;
+
+        }
+
+        .content {
+
+            background-color: #fff;
+
+            border-radius: 8px;
+
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+            padding: 20px;
+
+            max-width: 600px;
+
+            margin: 0 auto;
+
+        }
+
+        pre {
+
+            background-color: #f9f9f9;
+
+            border: 1px solid #ddd;
+
+            padding: 10px;
+
+            overflow: auto;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Datos del Problema</h1>
+
+    <div class="content">
+
+        <pre>
+
+Sistema RSA:
+
+    Número primo p = 47
+
+    Número primo q = 61
+
+    n = p × q
+
+    Función de Euler: ϕ(n) = (p - 1) × (q - 1)
+
+    Exponente público e = 17
+
+    Exponente privado d tal que e × d ≡ 1 mod ϕ(n)
+
+
+Cifrado del mensaje:
+
+    El mensaje original M fue cifrado con RSA:
+
+    C = M mod n
+
+    Luego, se aplicó un cifrado de desplazamiento modular con clave secreta K = 23:
+
+    C′ = (C + K) mod n
+
+
+Valor cifrado recibido:
+
+    Se obtiene el valor final C′ = 575
+
+
+Pregunta:
+
+    Recupera el mensaje original M invirtiendo los pasos de cifrado
+
+        </pre>
+
+    </div>
+
+</body>
+
+</html>
